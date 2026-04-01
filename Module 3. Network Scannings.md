@@ -35,7 +35,7 @@
     ```
 
 * Task 2. Perform Host Disvovery using Angry IP Scanner
-  * Download Angry IP Scanner
+  * Download Angry IP Scanner : https://angryip.org/download/#windows
   * Scanning IP Range 172.23.74.1 - 172.23.74.255
   * Hostname : Specific
   * IP : Netmask
