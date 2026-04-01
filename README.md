@@ -3,12 +3,146 @@
 ### Module 2. Footprinting and Reconnaissance
 
 #### A. Footprinting Search Engine
+* Task 1. Gather Information using Advanced Google Hacking
+  * Search Target from Google Search
+    ```
+    intitle:login site:example.com
+    example.com filetype:pdf "filename"
+    ```
+  
+* Task 2. Gather Information from Video Search Engines
+  * Search Target from Youtube
+  * Search Target from Online Tools : https://mattw.io/youtube-metada
+  
+* Task 3. Gather Information from FTP Search Engines
+  * Search Target from Online Tools : https://searchftps.net
+    
+* Task 4. Gather Information from IoT Search Engines
+  * Search Target from Online Tools : https://shodan.io
+
 #### B. Footprinting Web Services
+* Task 1. Find Company Domain and Subdomain using Netcraft
+  * Search Target from Online Tools : https://sitereport.netcraft.com
+  
+* Task 2. Gather Personal Information using PeekYou Online People Search Services
+  * Search Target from Online Tools : https://www.peekyou.com
+  
+* Task 3. Gather an Email List using theHarvester
+  * Configuration API-Key theHarvester
+    ```
+    nano /etc/theHarvester/proxies.yaml
+    ```
+  * Running Tools
+    ```
+    ┌──(root㉿kali)-[/home/kali]
+    └─# theHarvester -d microsoft -l 200 -b brave
+    Read proxies.yaml from /etc/theHarvester/proxies.yaml
+    *******************************************************************
+    *  _   _                                            _             *
+    * | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+    * | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+    * | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+    *  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+    *                                                                 *
+    * theHarvester 4.9.2                                              *
+    * Coded by Christian Martorella                                   *
+    * Edge-Security Research                                          *
+    * cmartorella@edge-security.com                                   *
+    *                                                                 *
+    *******************************************************************
+    
+    [*] Target: microsoft
+    
+    Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+    Failed to process brave search for word: 'microsoft'
+    Error Message:
+    [!] Missing API key for Brave Search.
+    [*] No IPs found.
+    [*] No emails found.
+    [*] No people found.
+    [*] No hosts found.
+    
+    ┌──(root㉿kali)-[/home/kali]
+    └─#
+
+    ```
+  
+* Task 4. Gather Information using Deep and Dark Web Searching (TOR Browser)
+  * Download TOR Browser : https://torproject.org/download
+  * Install tor-browser-windows-x86_64-portable-15.0.8.exe
+  * Search Target from Duckduckgo or Google in TOR Browser
+  
+* Task 5. Determine Target OS Passive Footprinting (Censys)
+  * Search Target from Online Tools : https://search.censys.io
+
 #### C. Footprinting Social Engineering Sites
+* Task 1. Gather Employe Information from Linkedin using theHarvester
+  * Configuration API-Key proxies.yaml
+    ```
+    nano /etc/theHarvester/proxies.yaml
+    ```
+  * Running Tools
+    ```
+    ┌──(root㉿kali)-[/home/kali]
+    └─# theHarvester -d john -l 200 -b linkedin
+    Read proxies.yaml from /etc/theHarvester/proxies.yaml
+    *******************************************************************
+    *  _   _                                            _             *
+    * | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+    * | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+    * | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+    *  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+    *                                                                 *
+    * theHarvester 4.9.2                                              *
+    * Coded by Christian Martorella                                   *
+    * Edge-Security Research                                          *
+    * cmartorella@edge-security.com                                   *
+    *                                                                 *
+    *******************************************************************
+    
+    [*] Target: john
+    [*] No LinkedIn users found.
+    [*] LinkedIn Links found: 0
+    ---------------------
+    [*] No IPs found.
+    [*] No emails found.
+    [*] No people found.
+    [*] No hosts found.
+    
+    ┌──(root㉿kali)-[/home/kali]
+    └─#
+
+    ```
+    
+* Task 2. Gather Personal Information from Social Engineering Sites using sherlock
+  * Install Sherlock
+    ```
+    apt install sherlock -y
+    ```
+  * Running Tools
+    ```
+    ┌──(root㉿kali)-[/home/kali]
+    └─# sherlock target
+    Update available! 0.15.0 --> 0.16.0
+    https://github.com/sherlock-project/sherlock/releases/tag/v0.16.0
+    [*] Checking username target on:
+    
+    [+] 1337x: https://www.1337x.to/user/target/
+    [+] 7Cups: https://www.7cups.com/@target
+    [+] About.me: https://about.me/target
+    [+] Airbit: https://airbit.com/target
+    [+] Airliners: https://www.airliners.net/user/target/profile/photos
+    [+] AllMyLinks: https://allmylinks.com/target
+    [+] Anilist: https://anilist.co/user/target/
+    
+    ```
+  
+* Task 3. Gather Information using Followerwonk
+  * Search Target from Online Tools : https://www.followerwonk.com/analyze
 
 #### D. Website Footprinting
 * Task 1. Gather Information About Target using PING CMD
-  * Testing
+  * Testing from CMD
   ```
   ping example.com
   ping example.com -f 1400
@@ -23,7 +157,11 @@
   ```
     
 * Task 2. Gather Information About Target Website using Photon
-  * Install from Github : https://github.com/s0md3v/Photon.git
+  * Tools from Github : https://github.com/s0md3v/Photon.git
+  * Install Tools
+    ```
+    git clone https://github.com/s0md3v/Photon.git
+    ```
   * Running Tools
     ```
     ┌──(root㉿kali)-[/home/kali/Photon]
@@ -63,20 +201,25 @@
     * /photon/example.com/robots.txt
       
 * Task 3. Gather Information About Target Website using Central Ops
-  * Search Domain Target from Online Tools : https://www.centralops.net
+  * Search Target from Online Tools : https://www.centralops.net
   
 * Task 4. Extract Company Data using Web Data Extractor
-  * Search Web Data Extractor 8.3 [Outdated]
+  * Download Web Data Extractor 8.3.exe [Outdated]
 
-* Task 5. Mirror Target Website using HTTrack Website Copier
-  * Download from : https://www.httrack.com
+* Task 5. Mirror Target Website using HTTrack Website Copier [Clone Website]
+  * Download Tools from : https://www.httrack.com
+  * Install HTTrack Website Copier.exe
   * Running Tools
     * Create Project -> Input Domain
     * Set Options -> Scan Rules -> Checklist [jpg,gif,cgi-bin,cgi]
     * Finish
       
 * Task 6. Gather Information About Target Website using GRecon
-  * Install form Github : https://github.com/Moh-Gebril/grecon.git
+  * Download Tools from : https://github.com/Moh-Gebril/grecon.git
+  * Install Tools
+    ```
+    git clone https://github.com/Moh-Gebril/grecon.git
+    ```
   * Running Tools
     ```
     ┌──(root㉿kali)-[/home/kali/grecon]
@@ -140,7 +283,7 @@
      CeWL 6.2.1 (More Fixes) Robin Wood (robin@digi.ninja) (https://digi.ninja/)
      
      ```
-   * Save Wordlist
+   * Open Wordlist
      ```
      ┌──(root㉿kali)-[/home/kali]
      └─# cat wordlist.txt
@@ -181,16 +324,15 @@
      
      ┌──(root㉿kali)-[/home/kali]
      └─#
-
      ```
     
 #### E. Email Footprinting
 * Task 1. Perform Email Footprinting
-  * Install eMailTrackerPro.exe [Outdated]
+  * Download eMailTrackerPro.exe [Outdated]
 
 #### F. Whois Footprinting
 * Task 1. Perform Whois Lookup using DomainTools
-  * Search Domain Target from Online Tools : https://whois.domaintools.com
+  * Search Target from Online Tools : https://whois.domaintools.com
 
 #### G. DNS Footprinting
 * Task 1. Gather DNS Information using NSLOOKUP
@@ -231,10 +373,11 @@
   >
   ```
 * Task 2. Gather DNS Information using Online Tools
-  * Search Domain Target from Online Tools : https://kloth.net
+  * Search Target from Online Tools : https://kloth.net
 
 #### H. Perform Network Footprinting
-* Task 1. Traceroute from Online Tools : https://www.arin.net
+* Task 1. Traceroute from Online Tools
+  * Search Target from Online Tools : https://www.arin.net
   
 * Task 2. Traceroute from CMD
   ```
@@ -289,7 +432,7 @@
   
   [recon-ng][default] >
   ```
-  * Optional
+  * Optional Command
   ```
   recon-ng
   recon-cli
@@ -315,7 +458,6 @@
   ```
     ┌──(root㉿kali)-[/home/kali]
   └─# domainfy -n example.com -t all
-  
   
           .===========================================================.
           |...........................................................|
@@ -348,21 +490,15 @@
           |....                OSRFramework 0.20.5                ....|
           |..                                                       ..|
           '==========================================================='
-  
-  
-  
        ___  ____  ____  _____                                            _
       / _ \/ ___||  _ \|  ___| __ __ _ _ __ ___   _____      _____  _ __| | __
      | | | \___ \| |_) | |_ | '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
      | |_| |___) |  _ <|  _|| | | (_| | | | | | |  __/\ V  V / (_) | |  |   <
       \___/|____/|_| \_\_|  |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\
   
-  
                      Coded with ♥ by Yaiza Rubio & Félix Brezo
   
-  
        -- In 'domainfy', use '-t cc' to find domains resolving to ccTLDs. --
-  
   
       Domainfy | Copyright (C) Yaiza Rubio & Félix Brezo (i3visio) 2014-2021
   
@@ -377,9 +513,8 @@
           Otherwise, just wait and keep calm!
   
           Press <Ctrl + C> to stop...
-  
   ```
-  * Optional
+  * Optional Command
   ```
   searchfy -q "example.com"
   usufy --info
@@ -387,15 +522,22 @@
   phonefy --info
   entify --info
   ```
+  
 * Task 4. Footprinting Target using FOCA
-  * Download from Github : https://github.com/ElevenPaths/FOCA.git
+  * Download Tools from Github : https://github.com/ElevenPaths/FOCA.git
   * Microsoft Windows (64 bits). Versions 7, 8, 8.1 and 10.
-  * Microsoft .NET Framework 4.7.1.
-  * Microsoft Visual C++ 2010 x64 or greater.
-  * An instance of SQL Server 2014 or greater.
+  * Install Microsoft .NET Framework 4.7.1.
+  * Install Microsoft Visual C++ 2010 x64 or greater.
+  * Install Microsoft SQL Server 2014 or greater.
+  * Extract FOCAv3.4.7.1.zip
+  * Running FOCA.exe
   
 * Task 5. Footprinting Target using BillCiper
-  * Download from Github : https://github.com/bahatiphill/BillCipher.git
+  * Download Tools from Github : https://github.com/bahatiphill/BillCipher.git
+  * Install Tools
+    ```
+    git clone https://github.com/bahatiphill/BillCipher.git
+    ```
   * Running Tools
     ```
     ┌──(root㉿kali)-[/home/kali/BillCipher]
@@ -429,8 +571,10 @@
      12) Get Robots.txt
     
     ```
+    
 * Task 6. Footprinting Target using OSINT Framework
-  * Access Website : https://www.osintframework.com
+  * Search Target from Online Tools : https://www.osintframework.com
+    
 * Allternative Tools
   * Recon-dog
   * GRecon
