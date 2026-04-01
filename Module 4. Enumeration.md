@@ -211,5 +211,121 @@
     server at IP address 10.13.3.0.
     >
     ```
+
+* Task 2. Perform DNS Enumeration using DNSSEC Zone Walking
+  * DNSSEC Zone Enumeration
+	```
+	dnsrecon -d www.awcloud.my.id -z
+	```
+  * Optional Tools
+	* LDNS
+	* nsec3map
+	* nsec3walker
+	* DNSwalk
+	
+* Task 3. Perform DNS Enumeration using NMAP
+  * NMAP DNS Service Discovery
+	```
+	nmap --script=broadcast-dns-service-discovery awcloud.my.id
+	```
+  * NMAP DNS Bruteforce
+	```
+	nmap -T4 -p 53 --script dns-brute awcloud.my.id
+	```
+  * NMAP DNS SRV Enumeration
+	```
+	nmap --script dns-srv-enum --script-args "dns-srv-enum.domain='awcloud.my.id'"
+	```
+
+#### F. Perform SMTP Enumeration
+* Task 1. Perform SMTP Enumeration using NMAP
+  * SMTP Enumeration User
+	```
+	nmap -p 25 --script=smtp-enum-users 172.23.74.125
+	```
+   * SMTP Open Relay
+	```
+	nmap -p 25 --script=smtp-open-relay 172.23.74.125
+	```
+   * SMTP Command Available
+	```
+	nmap -p 25 --script=smtp-command 172.23.74.125
+	```
+
+#### G. Perform RPC, SMB and FTP Enumeration
+* Task 1. Perform SMB and RPC Enumeration using NetScanTools Pro
+  * Download NetScanTools : https://www.netscantools.com/nstprodemorequestform.html
+
+* Task 2. Perform RPC, SMB and FTP Enumeration using NMAP
+  * FTP Scanner
+	```
+	nmap -p 21 172.23.74.125
+	```
+  * FTP Specifies Template
+	```
+	nmap -T4 -A 172.23.74.125
+	```
+  * FTP Host Script Results
+	```
+	nmap -p 445 -A 172.23.74.125
+	```
+  * FTP Traceroute Scanner
+	```
+	nmap -p 21 -A 172.23.74.125
+	```
+
+#### H. Perform Enumeration using Various Enumeration Tool
+* Task 1. Enumerate Information using Global Network Inventory
+  * Download Global Network Inventory : https://magnetosoft.com/product-global-network-inventory/
+
+* Task 2. Enumerate Network Resources using Advanced IP Scanner
+  * Download Angry IP Scanner : https://angryip.org/download/#windows
+
+* Task 3. Enumerate Information using Enum4linux
+  * NetBIOS Information Enumeration
+	```
+	┌──(root㉿kali)-[/home/kali]
+	└─# enum4linux -u martin -p applu -n 172.23.74.125
+	Starting enum4linux v0.9.1 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Wed Apr  1 06:00:44 2026
+	
+	 =========================================( Target Information )=========================================
+	
+	Target ........... 172.23.74.125
+	RID Range ........ 500-550,1000-1050
+	Username ......... 'martin'
+	Password ......... 'applu'
+	Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+	
+	
+	 ===========================( Enumerating Workgroup/Domain on 172.23.74.125 )===========================
+	
+	
+	[E] Can't find workgroup/domain
+	
+	
+	
+	 ===============================( Nbtstat Information for 172.23.74.125 )===============================
+	
+	```
+  * Enumeration Data Target Information
+	```
+	enum4linux -u martin -p apple -U 172.23.74.125
+	```
+  * Enumeration OS Information
+	```
+	enum4linux -u martin -p apple -o 172.23.74.125
+	```
+  * Enumeration Password Policy Information
+	```
+	enum4linux -u martin -p apple -P 172.23.74.125
+	```
+  * Enumeration Group Policy Information
+	```
+	enum4linux -u martin -p apple -G 172.23.74.125
+	```
+  * Enumeration Share Policy Information
+	```
+	enum4linux -u martin -p apple -S 172.23.74.125
+	```
     
   
