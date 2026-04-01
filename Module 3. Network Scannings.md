@@ -266,13 +266,13 @@
     ```
     ```
     # msfconsole
-    > use auxiliary/scanner/portscan/tcp
+    > use auxiliary/scanner/portscan/tcp -> portscan TCP
   	 > set RHOSTS 172.23.74.125
   	 > run
     ```
     ```
     # msfconsole 
-  	 > use auxiliary/scanner/smb/smb_version
+  	 > use auxiliary/scanner/smb/smb_version -> SMB Version
   	 > set RHOSTS 172.23.74.0-254
   	 > set THREADS 11
   	 > run
