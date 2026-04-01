@@ -185,7 +185,7 @@
     ```
   * NSLOOKUP Interactive Mode
     ```
-    C:\Users\anggarda.wijaya>nslookup
+    C:\Users\Administrator>nslookup
     Default Server:  UnKnown
     Address:  10.13.3.0
     
