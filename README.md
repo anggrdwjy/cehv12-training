@@ -182,7 +182,7 @@
 ## Module 6. System Hacking
 
 ## Module 7. Malware Threats
-#### A. Gain Access to Target System using Trojans
-#### B. Infect Target System using Virus
-#### C. Perform Static Malware Analysis
-#### D. Perform Dynamic Malware Analysis
+* A. Gain Access to Target System using Trojans
+* B. Infect Target System using Virus
+* C. Perform Static Malware Analysis
+* D. Perform Dynamic Malware Analysis
