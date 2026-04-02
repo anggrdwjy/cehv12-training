@@ -2,9 +2,39 @@
 ### Module 1. Methodology Certified Ethical Hacker
 ### Module 2. Footprinting and Reconnaissance
 *  A. Footprinting Search Engine
+   * Online Tools
+     * Google Search Engines
+     * Mattw : https://mattw.io/youtube-metadata
+     * Search FTPs : https://searchftps.net
+     * Shodan : https://shodan.io
+
 *  B. Footprinting Web Services
+   * Online Tools
+     * Netcraft : https://sitereport.netcraft.com
+     * Peekyou : https://peekyou.com
+     * Censys : https://search.censys.io
+   * Package Tools
+     * theHarvester : https://github.com/laramies/theHarvester
+     * TOR Browser : https://torproject.org/download
+       
 *  C. Footprinting Social Engineering Sites
+   * Online Tools
+     * FollowerWonk : https://www.followerwonk.com/analyze
+   * Package Tools
+     * theHarvester : https://github.com/laramies/theHarvester
+     * sherlock : https://github.com/sherlock-project/sherlock
+       
 *  D. Website Footprinting
+   * Online Tools
+     * CentralOps : https://www.centralops.net
+   * Package Tools
+     * theHarvester : https://github.com/laramies/theHarvester
+     * sherlock : https://github.com/sherlock-project/sherlock
+     * Web Data Extractor
+     * HTTrack Website Copier : https://www.httrack.com
+     * GRecon : https://github.com/Moh-Gebril/grecon.git
+     * CeWL : https://github.com/digininja/CeWL
+       
 *  E. Email Footprinting
 *  F. Whois Footprinting
 *  G. DNS Footprinting
