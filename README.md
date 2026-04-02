@@ -178,3 +178,11 @@
 *  C. Perform Web Servers and Application Vulnerability Scanning using CGI Scanner Nikto
    * Package Tools
      * Nikto : https://github.com/sullo/nikto
+       
+## Module 6. System Hacking
+
+## Module 7. Malware Threats
+#### A. Gain Access to Target System using Trojans
+#### B. Infect Target System using Virus
+#### C. Perform Static Malware Analysis
+#### D. Perform Dynamic Malware Analysis
