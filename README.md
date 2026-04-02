@@ -117,5 +117,17 @@
 
 ### Module 5. Vulnerability Analysis
 *  A. Perform Vulnerability Research with Vulnerability Scoring Systems and Databases
+   * Online Databases 
+     * Common Weakness Enumeration (CWE) : https://cwe.mitre.org/find/index.html
+     * Common Vulnerability and Exposures (CVE) : https://cve.mitre.org
+     * National Vulnerability Database (NVD) : https://nvd.nist.gov
+       
 *  B. Perform Vulnerability Assessment using Various Vulnerability Assessment Tools
+   * Package Tools
+     * OpenVAS : https://www.greenbone.net/en/openvas-free/
+     * Nessus : https://www.tenable.com/downloads/nessus?loginAttempted=true
+     * GFI LanGuard : https://gfi.ai/products-and-solutions/network-security-solutions/gfi-languard/download/
+       
 *  C. Perform Web Servers and Application Vulnerability Scanning using CGI Scanner Nikto
+   * Package Tools
+     * Nikto : https://github.com/sullo/nikto
