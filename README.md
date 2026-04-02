@@ -28,7 +28,7 @@
    * Online Tools
      * CentralOps : https://www.centralops.net
    * Package Tools
-     * Command-Prompt Utility Windows (CMD)
+     * Ping
      * Photon : https://github.com/s0md3v/Photon.git
      * theHarvester : https://github.com/laramies/theHarvester
      * sherlock : https://github.com/sherlock-project/sherlock
@@ -39,7 +39,7 @@
        
 *  E. Email Footprinting
    * Package Tools
-     * eMailTracekerPro
+     * eMailTrackerPro : https://emailtracker.website/pro
        
 *  F. Whois Footprinting
    * Online Tools
@@ -49,13 +49,13 @@
    * Online Tools
      * Kloth : https://kloth.net
    * Package Tools
-     * NSLOOKUP
+     * Nslookup
        
 *  H. Perform Network Footprinting
    * Online Tools
      * American Registry for Internet Numbers : https://www.arin.net
    * Package Tools
-     * NSLOOKUP
+     * Nslookup
      * Traceroute
        
 *  I. Perform Footprinting using Footprinting Tools
@@ -108,7 +108,7 @@
 ### Module 4. Enumeration
 *  A. Perform NetBIOS Enumeration
    * Package Tools
-     * Command-Prompt Utility Windows (CMD)
+     * Nbtstat
      * NetBIOSEnumerator : https://nbtenum.sourceforge.net/
      * NMAP : https://nmap.org/download
      * Global Network Inventory : https://magnetosoft.com/product-global-network-inventory/
@@ -139,7 +139,7 @@
 *  E. Perform DNS Enumeration
    * Package Tools
      * Dig
-     * NSLOOKUP
+     * Nslookup
      * dnsrecon : https://www.kali.org/tools/dnsrecon/
      * NMAP : https://nmap.org/download
      * LDNS : https://github.com/NLnetLabs/ldns
