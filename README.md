@@ -2,20 +2,20 @@
 ### Module 1. Methodology Certified Ethical Hacker
 * A. Explain Information Security Concepts
   * 1. Elements of Information Security
-    * Confidentiality
-    * Integrity
-    * Availability
-    * Authenticity
-    * Non-Repudiation
+       * Confidentiality
+       * Integrity
+       * Availability
+       * Authenticity
+       * Non-Repudiation
       
   * 2. Motives, Goals, And Objectives of Information Security Attacks
        
   * 3. Classification of Attacks
-    * Passive Attacks
-    * Active Attacks
-    * Close-in Attacks
-    * Insider Attacks
-    * Distribution Attacks
+       * Passive Attacks
+       * Active Attacks
+       * Close-in Attacks
+       * Insider Attacks
+       * Distribution Attacks
       
   * 4. Information Warfare
     
@@ -23,83 +23,83 @@
   * 1. Hacking Methodologies and Frameworks
        
   * 2. CEH Hacking Methodology (CHM)
-    * Footprinting
-    * Scanning
-    * Enumeration
-    * Vulnerability Analysis
-    * Gaining Access
-      * Cracking Passwords
-      * Vulnerability Exploitation
-    * Escalating Privileges
-    * Maintaining Access
-      * Executing Applications
-      * Hiding Files
-    * Clearing Logs
-      * Covering Tracks
+       * Footprinting
+       * Scanning
+       * Enumeration
+       * Vulnerability Analysis
+       * Gaining Access
+         * Cracking Passwords
+         * Vulnerability Exploitation
+       * Escalating Privileges
+       * Maintaining Access
+         * Executing Applications
+         * Hiding Files
+       * Clearing Logs
+         * Covering Tracks
         
   * 3. Cyber Kill Chain Methodology
-    * Reconnaissance
-    * Weaponization
-    * Delivery
-    * Exploitation
-    * Installation
-    * Command and Control
-    * Actions on Objectives
+       * Reconnaissance
+       * Weaponization
+       * Delivery
+       * Exploitation
+       * Installation
+       * Command and Control
+       * Actions on Objectives
       
   * 4. Tactics, Techniques, and Procedures (TTPs)
   
   * 5. Adversary Behavioral Identification
-    * Internal Reconnaisance
-    * Use of PowerShell
-    * Unspecified Proxy Activities
-    * Use of Command-Line Interface
-    * HTTP User Agent
-    * Command and Control Server
-    * Use of DNS Tunneling
-    * Use of Web Shell
-    * Data Staging
+       * Internal Reconnaisance
+       * Use of PowerShell
+       * Unspecified Proxy Activities
+       * Use of Command-Line Interface
+       * HTTP User Agent
+       * Command and Control Server
+       * Use of DNS Tunneling
+       * Use of Web Shell
+       * Data Staging
       
   * 6. Indicators of Compromise (IoCs)
        
   * 7. Categories of Indicators of Compromise
-    * Email Indicators
-    * Network Indicators
-    * Host-Based Indicators
-    * Behavioral Indicators
+       * Email Indicators
+       * Network Indicators
+       * Host-Based Indicators
+       * Behavioral Indicators
       
   * 8. MITRE ATT&CK Framework
-    * Reconnaissance
-    * Resource Development
-    * Intial Access
-    * Execution
-    * Persistence
-    * Privilege Escalation
-    * Defense Evasion
-    * Credential Access
-    * Discovery
-    * Lateral Movement
-    * Collection
-    * Command and Control
-    * Exfiltration
-    * Impact
+       * Reconnaissance
+       * Resource Development
+       * Intial Access
+       * Execution
+       * Persistence
+       * Privilege Escalation
+       * Defense Evasion
+       * Credential Access
+       * Discovery
+       * Lateral Movement
+       * Collection
+       * Command and Control
+       * Exfiltration
+       * Impact
 
   * 9. Diamond Model of Intrusion Analysis
-    * Adversary
-    * Victim
-    * Capability
-    * Infrastructure
+       * Adversary
+       * Victim
+       * Capability
+       * Infrastructure
    
   * 10. Additional Event Meta-Features
-    * Timestamp
-    * Phase
-    * Result
-    * Direction
-    * Methodology
-    * Resource
+        * Timestamp
+        * Phase
+        * Result
+        * Direction
+        * Methodology
+        * Resource
       
   * 11. Extended Diamond Model
-    * Socio-policital meta-feature
-    * Technology meta-feature
+        * Socio-policital meta-feature
+        * Technology meta-feature
     
 
 * C. Explain Hacking Concepts and Diiferent Hacker Classes
