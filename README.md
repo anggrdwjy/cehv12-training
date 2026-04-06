@@ -139,7 +139,7 @@
        
 *  I. Perform Footprinting using Footprinting Tools
    * Task 1. Footprinting Target using Recon-ng
-   * Task 2. Footprinting using Maltego
+   * Task 2. Footprinting Target using Maltego
    * Task 3. Footprinting Target using OSRFramework
    * Task 4. Footprinting Target using FOCA
    * Task 5. Footprinting Target using BillCiper
