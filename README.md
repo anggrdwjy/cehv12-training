@@ -55,10 +55,10 @@
 
 ### Module 2. Footprinting and Reconnaissance
 *  A. Footprinting Search Engine
-   * Gather Information using Advanced Google Hacking
-   * Gather Information from Video Search Engines
-   * Gather Information from FTP Search Engines
-   * Gather Information from IoT Search Engines   
+   * Task 1. Gather Information using Advanced Google Hacking
+   * Task 2. Gather Information from Video Search Engines
+   * Task 3. Gather Information from FTP Search Engines
+   * Task 4. Gather Information from IoT Search Engines   
    * Online Tools
      * Google Search Engines
      * Mattw : https://mattw.io/youtube-metadata
@@ -66,11 +66,11 @@
      * Shodan : https://shodan.io
 
 *  B. Footprinting Web Services
-   * Find Company Domain and Subdomain using Netcraft
-   * Gather Personal Information using PeekYou Online People Search Services
-   * Gather an Email List using theHarvester
-   * Gather Information using Deep and Dark Web Searching (TOR Browser)
-   * Determine Target OS Passive Footprinting (Censys)
+   * Task 1. Find Company Domain and Subdomain using Netcraft
+   * Task 2. Gather Personal Information using PeekYou Online People Search Services
+   * Task 3. Gather an Email List using theHarvester
+   * Task 4. Gather Information using Deep and Dark Web Searching (TOR Browser)
+   * Task 5. Determine Target OS Passive Footprinting (Censys)
    * Online Tools
      * Netcraft : https://sitereport.netcraft.com
      * Peekyou : https://peekyou.com
@@ -80,9 +80,9 @@
      * TOR Browser : https://torproject.org/download
        
 *  C. Footprinting Social Engineering Sites
-   * Gather Employe Information from Linkedin using theHarvester
-   * Gather Personal Information from Social Engineering Sites using sherlock
-   * Gather Information using Followerwonk
+   * Task 1. Gather Employe Information from Linkedin using theHarvester
+   * Task 2. Gather Personal Information from Social Engineering Sites using sherlock
+   * Task 3. Gather Information using Followerwonk
    * Online Tools
      * FollowerWonk : https://www.followerwonk.com/analyze
    * Package Tools
@@ -90,13 +90,13 @@
      * sherlock : https://github.com/sherlock-project/sherlock
        
 *  D. Website Footprinting
-   * Gather Information About Target using PING CMD
-   * Gather Information About Target Website using Photon
-   * Gather Information About Target Website using Central Ops
-   * Extract Company Data using Web Data Extractor
-   * Mirror Target Website using HTTrack Website Copier (Clone Website)
-   * Gather Information About Target Website using GRecon
-   * Gather Wordlist from Target Website using CeWL
+   * Task 1. Gather Information About Target using PING CMD
+   * Task 2. Gather Information About Target Website using Photon
+   * Task 3. Gather Information About Target Website using Central Ops
+   * Task 4. Extract Company Data using Web Data Extractor
+   * Task 5. Mirror Target Website using HTTrack Website Copier (Clone Website)
+   * Task 6. Gather Information About Target Website using GRecon
+   * Task 7. Gather Wordlist from Target Website using CeWL
    * Online Tools
      * CentralOps : https://www.centralops.net
    * Package Tools
@@ -110,27 +110,27 @@
      * CeWL : https://github.com/digininja/CeWL
        
 *  E. Email Footprinting
-   * Perform Email Footprinting
+   * Task 1. Perform Email Footprinting
    * Package Tools
      * eMailTrackerPro : https://emailtracker.website/pro
        
 *  F. Whois Footprinting
-   * Perform Whois Lookup using DomainTools
+   * Task 1. Perform Whois Lookup using DomainTools
    * Online Tools
      * DomainTools : https://whois.domaintools.com
        
 *  G. DNS Footprinting
-   * Gather DNS Information using NSLOOKUP
-   * Gather DNS Information using Online Tools
+   * Task 1. Gather DNS Information using NSLOOKUP
+   * Task 2. Gather DNS Information using Online Tools
    * Online Tools
      * Kloth : https://kloth.net
    * Package Tools
      * Nslookup
        
 *  H. Perform Network Footprinting
-   * Traceroute from Online Tools
-   * Traceroute from CMD
-   * Traceroute from Linux
+   * Task 1. Traceroute from Online Tools
+   * Task 2. Traceroute from CMD
+   * Task 3. Traceroute from Linux
    * Online Tools
      * American Registry for Internet Numbers : https://www.arin.net
    * Package Tools
@@ -138,12 +138,12 @@
      * Traceroute
        
 *  I. Perform Footprinting using Footprinting Tools
-   * Footprinting Target using Recon-ng
-   * Footprinting using Maltego
-   * Footprinting Target using OSRFramework
-   * Footprinting Target using FOCA
-   * Footprinting Target using BillCiper
-   * Footprinting Target using OSINT Framework
+   * Task 1. Footprinting Target using Recon-ng
+   * Task 2. Footprinting using Maltego
+   * Task 3. Footprinting Target using OSRFramework
+   * Task 4. Footprinting Target using FOCA
+   * Task 5. Footprinting Target using BillCiper
+   * Task 6. Footprinting Target using OSINT Framework
    * Online Tools
      * OSINT Framework : https://www.osintframework.com 
    * Package Tools
@@ -160,11 +160,18 @@
        
 ### Module 3. Scanning Networks
 *  A. Perform Host Discovery
+   * Task 1. Perform Host Discovery using NMAP
+   * Task 2. Perform Host Disvovery using Angry IP Scanner
    * Package Tools
      * NMAP : https://nmap.org/download
      * Angry IP Scanner : https://angryip.org/download/#windows
        
 *  B. Perform Port and Services Discovery
+   * Task 1. Perform Port and Service Discovery using MegaPing
+   * Task 2. Perform Port and Service Discovery using NetScanTools Pro
+   * Task 3. Perform Port Scanning using sx Tools
+   * Task 4. Explore Various Network Scanning Techniques using NMAP
+   * Task 5. Explore Various Network Scanning Techniques using Hping3
    * Package Tools
      * MegaPing : https://magnetsoft.com/producs-download
      * NetScanTools Pro : https://netscantools.com/ntbasicrequestform.html
@@ -173,12 +180,18 @@
      * Hping3 : https://github.com/antirez/hping
        
 *  C. Perform OS Discovery
+   * Task 1. Identify Target System OS with Time-to-Live (TTL) and TCP Window Sizes using Wireshark
+   * Task 2. Perform OS Discovery using NMAP Script Engine (NSE)
+   * Task 3. Perform OS Discovery using Unicornscan
    * Package Tools
      * Wireshark : https://www.wireshark.org/download.html
      * NMAP : https://nmap.org/download
      * Unicornscan : https://www.kali.org/tools/unicornscan/
        
 *  D. Scan Beyond IDS and Firewall (Techniques to Evade IDS/Firewall)
+   * Task 1. Scan Beyond IDS/Firewall using Various Evasion Techniques
+   * Task 2. Create Custom Packets using Colasoft Packet Builder to Scan Beyond IDS/Firewall
+   * Task 3. Create Custom UDP and TCP Packets using Hping3 to Scan Beyond IDS/Firewall
    * Package Tools
      * NMAP : https://nmap.org/download
      * Colasoft Packet Builder : https://www.colasoft.com/download/products/download_packet_builder.php
@@ -186,6 +199,7 @@
      * NetScanTools Pro : https://netscantools.com/ntbasicrequestform.html
        
 *  E. Perform Network Scanning using Various Scanning Tools
+   * Task 1. Scan Target Network using Metasploit
    * Package Tools
      * Metasploit : https://www.metasploit.com/
        
