@@ -236,9 +236,6 @@
 
 ### Module 7. Malware Threats
 * A. Gain Access to Target System using Trojans
-  * Gain Control Victim Machine using njRAT Trojans
-  * Hide Trojan using SwayzCryptor and Make Undetectable Various Anti-Virus Program
-  * Create a Trojan Server using TheefRAT
     
   * Malware Tools
     * njRAT (Build Malware) : https://github.com/alyaparan/NjRat-0.7D
@@ -246,20 +243,11 @@
     * TheefRAT Trojan v2.10 (Server Trojan) :
       
 * B. Infect Target System using Virus
-  * Create Virus using JPS Virus Maker Tool and Infect Target System
     
   * Malware Tools
     * JPS Virus Maker : https://github.com/Hackalyze-Tools/jps-virus-maker
       
 * C. Perform Static Malware Analysis
-  * Malware Scanning using Hybrid Analysis
-  * Perform Strings Search using BinText
-  * Identify Packaging and Obfuscation Methods using PEid
-  * Analyze ELF Executable File using Detect It Easy (DIE)
-  * Find Portable Executable (PE) Information of Malware Executable File using PE Explorer
-  * Identify File Dependencies using Dependency Walker
-  * Malware Disassembly using IDA and OllyDbg
-  * Malware Disassembly using Ghidra
     
   * Online Tools
     * Hybrid Analysis : https://hybrid-analysis.com
