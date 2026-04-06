@@ -183,6 +183,75 @@
 
 ## Module 7. Malware Threats
 * A. Gain Access to Target System using Trojans
+  * Malware Tools
+    * njRAT : https://github.com/alyaparan/NjRat-0.7D
+    * SwayzCryptor :
+    * Theef :
+      
 * B. Infect Target System using Virus
+  * Malware Tools
+    * JPS Virus Maker : https://github.com/Hackalyze-Tools/jps-virus-maker
+      
 * C. Perform Static Malware Analysis
+  * Online Tools
+    * Hybrid Analysis : https://hybrid-analysis.com
+    * Virus Total : https://virustotal.com
+    * Valkyrie : https://valkryrie.comodo.com
+    * Cuckoo Sandbox : https://cuckoosandbox.org
+    * Jotti : https://virusscan.jotti.org
+    * IObit Cloud : https://cloud.iobit.com
+      
+  * Package Tools
+    * BinText 3.0.3 : https://www.oldergeeks.com/downloads/file.php?id=2441
+    * FLOSS : https://fireeye.com
+    * Strings : https://learn.microsoft.com/en-us/sysinternals/downloads/strings
+    * Free EXE DLL Resource Extract : https://resourceextract.com
+    * FileSeek : https://fileseek.ca
+    * PEid : https://github.com/wolfram77web/app-peid
+    * DIE : https://github.com/horsicq/DIE-engine/releases
+    * PE explorer : https://www.pe-explorer.com/
+    * Portable Executable Scanner (Pescan) : https://tzworks.net
+    * Resource Hacker : https://angusj.com
+    * PEView : https://aldeid.com
+    * Dependency Walker : https://www.dependencywalker.com/
+    * Dependency-check : https://jeremylong.github.io
+    * Snyk : https://synk.io
+    * RetrireJS : https://retirejs.github.io
+    * IDA Freeware : https://hex-rays.com/ida-free
+    * OllyDbg : https://www.ollydbg.de/download.htm
+    * Ghidra : https://github.com/NationalSecurityAgency/ghidra/releases
+    * Radare2 : https://rada.re
+    * WinDbg : https://windbg.org
+    * ProcDump : https://learn.microsoft.com/en-us/sysinternals/downloads/procdump
+    
 * D. Perform Dynamic Malware Analysis
+  * Package Tools
+    * TCPView : https://www.sysinternals.com
+    * CurrPorts : https://www.nirsoft.net/utils/cports.html#DownloadLinks
+    * ProcessMonitor : https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
+    * Reg Organizer : https://www.chemtable.com/organizer.htm
+    * Regshot : https://sourceforge.net/projects/regshot/
+    * Registry Viewer : https://accessdata.com
+    * RegScanner : https://nirsoft.com
+    * Registrar Registry Manager : https://resplendence.com
+    * Windows Service Manager : https://sysprogs.com/legacy/tools/srvman/
+    * Autoruns : https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+    * WinPatrol : https://www.winpatrol.online/
+    * Autorun Organizer : https://chemtable.com
+    * Quick Startup : https://glarysoft.com
+    * Chameleon Startup Manager : https://chameleon-managers.com
+    * Mirekusoft Install Monitor : https://www.mirekusoft.com/
+    * Tripwire File Integrity and Change Manager : https://tripwire.com
+    * Netwrix Auditor : https://netwrix.com
+    * Verisys : https://ionx.co.uk
+    * CSP Checker : https://cspsecurity.com
+    * Driver View : https://www.nirsoft.net/utils/driverview.html
+    * Driver Reviver : https://www.reviversoft.com/driver-reviver/
+    * Driver Bosster : https://iobit.com
+    * Driver Easy : https://drivereasy.com
+    * Driver Fusion : https://treexy.com
+    * Driver Genius 22 : https://driver-soft.com
+    * ProcessMonitor : https://learn.microsoft.com/en-us/sysinternals/downloads/procmon
+    * DNSQuery Sniffer : https://www.nirsoft.net/utils/dns_query_sniffer.html
+    * DNSstuff : https://dnsstuff.com/freetools
+    * SonarLite : https://constellix.com
