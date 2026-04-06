@@ -87,7 +87,6 @@
   * Extended Diamond Model
        * Socio-policital meta-feature
        * Technology meta-feature
-    
 
 * C. Explain Hacking Concepts and Diiferent Hacker Classes
   * Hacking Concepts
@@ -109,7 +108,42 @@
     * Organized Hackers
       
 * D. Explain Ethical Hacking Concepts and Scope
+  * Ethical Hacking Concepts
+  * What is Ethical Hacking?
+  * Why Ethical Hacking is Necessary
+  * Reasons Why Organizations Recruit Ethical Hackers
+    * What can an attacker see on target system?
+    * What can an intruder do with that information?
+    * Are attackers attempts being noticed on target systems?
+  * Scope and Limitiations of Ethical Hacking
+  * Skills of an Ethical Hacker
+    * Technical Skills
+    * Non-Technical Skills
 * E. Summarize the Techniques used in Information Security Controls
+  * Information Security Controls
+  * Information Assurance (IA)
+  * Continual/Adaptive Security Strategy
+    * Protection
+    * Detection
+    * Responding
+    * Prediction
+  * Defense-in-Depth
+  * What is Risk?
+  * Risk Matrix
+  * Risk Management
+    * Risk Identification
+    * Risk Assessment
+    * Risk Treatment
+    * Risk Tracking and Review
+  * Cyber Threat Intelligence
+  * Types of Threat Intelligence
+    * Strategic Threat Intelligence
+    * Tactical Threat Intelligence
+    * Operational Threat Intelligence
+    * Technical Threat Intelligence
+  * Threat Intelligence Lifecycle
+  * 
+
 * F. Explain the Importance of Applicable Security Laws and Standards
 
 ### Module 2. Footprinting and Reconnaissance
