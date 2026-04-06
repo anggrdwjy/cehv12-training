@@ -142,7 +142,62 @@
     * Operational Threat Intelligence
     * Technical Threat Intelligence
   * Threat Intelligence Lifecycle
-  * 
+    * Planning and Direction
+    * Collection
+    * Processing and Exploitation
+    * Analysis and Production
+    * Dissemination and Integration
+  * Threat Modelling
+    * Identify Security Objectives
+    * Application Overview
+      * Identify Roles
+      * Identify Key Usage Scenarios
+      * Identify Technologies
+      * Identify Application Security Mechanisms
+    * Decompose the Application
+      * Identify Trust Boundaries
+      * Identify Data Flows
+      * Identify Entry Points
+      * Identify Exit Points
+    * Identify Threats
+    * Identify Vulnerabilities
+  * Incident Managment
+    * Vulnerability Analysis
+    * Artifact Analysis
+    * Security Awereness Training
+    * Instrusion Detection
+    * Public or Technology Monitoring
+    * Improve Service Qualiy
+    * Resolve Problems Proactively
+    * Reduce the Impact of Incidents on Organization or Its Bussiness
+    * Meet Service Availability Requirments
+    * Increase Staff Efficiency and Productivity
+    * Improve User and Customer Satisfaction
+    * Assist in Handling Future Incidents
+  * Incident Handling and Response
+    * Preparation
+    * Incident Recording and Assignment
+    * Incident Triage
+    * Notification
+    * Containment
+    * Evidence Gathering and Forensic Analysis
+    * Eradication
+    * Recovery
+    * Post-Incident Activities
+  * Role of AI and ML in Cybersecurity
+    * Supervised Learning
+    * Unsupervised Learning
+  * How Do AI and ML Prevent Cyber Attacks?
+    * Password Protection and Authentication
+    * Phising Detection and Prevention
+    * Therat Detection
+    * Vulnerability Management
+    * Behavioral Analytics
+    * Network Security
+    * AI-Based Antivirus
+    * Fraud Detection
+    * Botnet Detection
+    * AI to Combat AI Threats
 
 * F. Explain the Importance of Applicable Security Laws and Standards
 
