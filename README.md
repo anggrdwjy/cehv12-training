@@ -90,6 +90,24 @@
     
 
 * C. Explain Hacking Concepts and Diiferent Hacker Classes
+  * Hacking Concepts
+  * What is Hacking?
+  * Who is a Hacking?
+  * Hacker Classes
+    * Black Hats
+    * White Hats
+    * Gray Hats
+    * Suicide Hackers
+    * Script Kiddies
+    * Cyber Terrorists
+    * State-Sponsored Hackers
+    * Hacktivist
+    * Hacker Teams
+    * Industrial Spies
+    * Insiders
+    * Criminal Syndicates
+    * Organized Hackers
+      
 * D. Explain Ethical Hacking Concepts and Scope
 * E. Summarize the Techniques used in Information Security Controls
 * F. Explain the Importance of Applicable Security Laws and Standards
