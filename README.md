@@ -1,5 +1,12 @@
 ## Overview
 ### Module 1. Methodology Certified Ethical Hacker
+* A. Explain Information Security Concepts
+* B. Explain Hacking Methodologies and Frameworks
+* C. Explain Hacking Concepts and Diiferent Hacker Classes
+* D. Explain Ethical Hacking Concepts and Scope
+* E. Summarize the Techniques used in Information Security Controls
+* F. Explain the Importance of Applicable Security Laws and Standards
+
 ### Module 2. Footprinting and Reconnaissance
 *  A. Footprinting Search Engine
    * Online Tools
