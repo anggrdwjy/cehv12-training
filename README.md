@@ -319,8 +319,8 @@
 * B. Infect Target System using Virus
   * Task 1. Create Virus using JPS Virus Maker Tool and Infect Target System
   * Malware Tools
-    * JPS Virus Maker : https://github.com/Hackalyze-Tools/jps-virus-maker
-      
+    * JPS Virus Maker : https://github.com/Hackalyze-Tools/jps-virus-make
+
 * C. Perform Static Malware Analysis
   * Task 1. Perform Malware Scanning using Hybrid Analysis
   * Task 2. Perform Strings Search using BinText
